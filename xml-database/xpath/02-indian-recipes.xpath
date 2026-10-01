@@ -1,0 +1,1 @@
+/recipes/recipe[cuisine='Indian']/name/text()

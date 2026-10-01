@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <!-- ===================================================== -->
+    <!-- SIMPLE TYPES                                           -->
+    <!-- ===================================================== -->
+
+    <!-- Recipe ID must look like R001, R002, R030, etc. -->
+    <xs:simpleType name="recipeIdType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="R[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Allowed cuisines -->
+    <xs:simpleType name="cuisineType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Indian"/>
+            <xs:enumeration value="Chinese"/>
+            <xs:enumeration value="Italian"/>
+            <xs:enumeration value="Mexican"/>
+            <xs:enumeration value="Continental"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Allowed categories -->
+    <xs:simpleType name="categoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Main Course"/>
+            <xs:enumeration value="Starter"/>
+            <xs:enumeration value="Breakfast"/>
+            <xs:enumeration value="Snack"/>
+            <xs:enumeration value="Salad"/>
+            <xs:enumeration value="Soup"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Difficulty -->
+    <xs:simpleType name="difficultyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Easy"/>
+            <xs:enumeration value="Medium"/>
+            <xs:enumeration value="Hard"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Dietary type -->
+    <xs:simpleType name="dietaryTypeType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Vegetarian"/>
+            <xs:enumeration value="Non-Vegetarian"/>
+            <xs:enumeration value="Vegan"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Positive decimal for ingredient quantity -->
+    <xs:simpleType name="positiveQuantityType">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Cooking time must be greater than zero -->
+    <xs:simpleType name="positiveCookingTimeType">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:maxInclusive value="1440"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Nutrition values cannot be negative -->
+    <xs:simpleType name="nonNegativeNutritionType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Ingredient unit -->
+    <xs:simpleType name="unitType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Non-empty text -->
+    <xs:simpleType name="nonEmptyStringType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <!-- ===================================================== -->
+    <!-- INGREDIENT TYPE                                        -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="ingredientType">
+        <xs:sequence>
+
+            <xs:element name="name"
+                        type="nonEmptyStringType"/>
+
+            <xs:element name="quantity"
+                        type="positiveQuantityType"/>
+
+            <xs:element name="unit"
+                        type="unitType"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- INGREDIENT COLLECTION                                  -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="ingredientsType">
+        <xs:sequence>
+
+            <xs:element name="ingredient"
+                        type="ingredientType"
+                        minOccurs="1"
+                        maxOccurs="unbounded"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- PREPARATION STEPS                                      -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="stepsType">
+        <xs:sequence>
+
+            <xs:element name="step"
+                        type="nonEmptyStringType"
+                        minOccurs="1"
+                        maxOccurs="unbounded"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- NUTRITION                                              -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="nutritionType">
+        <xs:sequence>
+
+            <xs:element name="calories"
+                        type="nonNegativeNutritionType"/>
+
+            <xs:element name="protein"
+                        type="nonNegativeNutritionType"/>
+
+            <xs:element name="carbohydrates"
+                        type="nonNegativeNutritionType"/>
+
+            <xs:element name="fat"
+                        type="nonNegativeNutritionType"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- ALLERGENS                                              -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="allergensType">
+        <xs:sequence>
+
+            <xs:element name="allergen"
+                        type="nonEmptyStringType"
+                        minOccurs="1"
+                        maxOccurs="unbounded"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- TAGS                                                   -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="tagsType">
+        <xs:sequence>
+
+            <xs:element name="tag"
+                        type="nonEmptyStringType"
+                        minOccurs="1"
+                        maxOccurs="unbounded"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- RECIPE TYPE                                            -->
+    <!-- ===================================================== -->
+
+    <xs:complexType name="recipeType">
+
+        <xs:sequence>
+
+            <xs:element name="name"
+                        type="nonEmptyStringType"/>
+
+            <xs:element name="description"
+                        type="nonEmptyStringType"/>
+
+            <xs:element name="cuisine"
+                        type="cuisineType"/>
+
+            <xs:element name="category"
+                        type="categoryType"/>
+
+            <xs:element name="ingredients"
+                        type="ingredientsType"/>
+
+            <xs:element name="steps"
+                        type="stepsType"/>
+
+            <xs:element name="nutrition"
+                        type="nutritionType"/>
+
+            <xs:element name="cookingTime"
+                        type="positiveCookingTimeType"/>
+
+            <xs:element name="difficulty"
+                        type="difficultyType"/>
+
+            <xs:element name="dietaryType"
+                        type="dietaryTypeType"/>
+
+            <xs:element name="allergens"
+                        type="allergensType"/>
+
+            <xs:element name="tags"
+                        type="tagsType"/>
+
+        </xs:sequence>
+
+        <xs:attribute name="id"
+                      type="recipeIdType"
+                      use="required"/>
+
+    </xs:complexType>
+
+
+    <!-- ===================================================== -->
+    <!-- ROOT ELEMENT                                           -->
+    <!-- ===================================================== -->
+
+    <xs:element name="recipes">
+
+        <xs:complexType>
+
+            <xs:sequence>
+
+                <xs:element name="recipe"
+                            type="recipeType"
+                            minOccurs="1"
+                            maxOccurs="unbounded"/>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+
+        <!-- Every recipe ID must be unique -->
+        <xs:unique name="uniqueRecipeId">
+
+            <xs:selector xpath="recipe"/>
+
+            <xs:field xpath="@id"/>
+
+        </xs:unique>
+
+    </xs:element>
+
+</xs:schema>

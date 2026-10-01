@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipes>
+
+    <recipe id="INVALID001">
+
+        <name>Invalid Demo Recipe</name>
+
+        <description>
+            This recipe intentionally violates the XSD rules
+            for demonstration purposes.
+        </description>
+
+        <cuisine>Martian</cuisine>
+
+        <category>Main Course</category>
+
+        <ingredients>
+
+            <ingredient>
+
+                <name>Rice</name>
+
+                <quantity>-500</quantity>
+
+                <unit>g</unit>
+
+            </ingredient>
+
+        </ingredients>
+
+        <steps>
+
+            <step>Prepare the ingredients.</step>
+
+        </steps>
+
+        <nutrition>
+
+            <calories>-100</calories>
+
+            <protein>10</protein>
+
+            <carbohydrates>20</carbohydrates>
+
+            <fat>5</fat>
+
+        </nutrition>
+
+        <cookingTime>0</cookingTime>
+
+        <difficulty>Very Easy</difficulty>
+
+        <dietaryType>Healthy</dietaryType>
+
+        <allergens>
+
+            <allergen>None</allergen>
+
+        </allergens>
+
+        <tags>
+
+            <tag>Invalid</tag>
+
+        </tags>
+
+    </recipe>
+
+</recipes>

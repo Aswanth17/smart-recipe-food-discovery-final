@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipes>
+
+    <recipe id="R001">
+        <name>Chicken Biryani</name>
+        <description>Fragrant basmati rice cooked with marinated chicken, aromatic spices, herbs, and onions.</description>
+        <cuisine>Indian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>500</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Basmati Rice</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Yogurt</name>
+                <quantity>150</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Biryani Masala</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Mint Leaves</name>
+                <quantity>20</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Wash and soak the basmati rice for 20 minutes.</step>
+            <step>Marinate chicken with yogurt and biryani masala.</step>
+            <step>Fry sliced onions until golden brown.</step>
+            <step>Cook the marinated chicken until almost done.</step>
+            <step>Cook the rice separately until seventy percent cooked.</step>
+            <step>Layer rice and chicken and cook on low heat until fully done.</step>
+        </steps>
+
+        <nutrition>
+            <calories>650</calories>
+            <protein>34</protein>
+            <carbohydrates>78</carbohydrates>
+            <fat>22</fat>
+        </nutrition>
+
+        <cookingTime>60</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Rice</tag>
+            <tag>Chicken</tag>
+            <tag>Spicy</tag>
+            <tag>Indian</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R002">
+        <name>Paneer Butter Masala</name>
+        <description>Soft paneer cubes cooked in a creamy tomato and butter gravy.</description>
+        <cuisine>Indian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Paneer</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>4</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Butter</name>
+                <quantity>40</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Fresh Cream</name>
+                <quantity>80</quantity>
+                <unit>ml</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook onions and tomatoes until soft.</step>
+            <step>Blend the cooked mixture into a smooth puree.</step>
+            <step>Heat butter and add the tomato puree.</step>
+            <step>Add spices and simmer the gravy.</step>
+            <step>Add paneer cubes and fresh cream.</step>
+            <step>Cook for five more minutes and serve.</step>
+        </steps>
+
+        <nutrition>
+            <calories>520</calories>
+            <protein>22</protein>
+            <carbohydrates>28</carbohydrates>
+            <fat>35</fat>
+        </nutrition>
+
+        <cookingTime>35</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Paneer</tag>
+            <tag>Creamy</tag>
+            <tag>Indian</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R003">
+        <name>Vegetable Pulao</name>
+        <description>Lightly spiced rice cooked with mixed vegetables and aromatic whole spices.</description>
+        <cuisine>Indian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Basmati Rice</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Carrot</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Green Peas</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Beans</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Wash and soak rice for fifteen minutes.</step>
+            <step>Saute onions and whole spices.</step>
+            <step>Add vegetables and cook briefly.</step>
+            <step>Add rice and water.</step>
+            <step>Cover and cook until rice is tender.</step>
+        </steps>
+
+        <nutrition>
+            <calories>390</calories>
+            <protein>10</protein>
+            <carbohydrates>72</carbohydrates>
+            <fat>7</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>None</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Rice</tag>
+            <tag>Vegetables</tag>
+            <tag>Vegan</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R004">
+        <name>Palak Paneer</name>
+        <description>Paneer cooked in a smooth spinach gravy with Indian spices.</description>
+        <cuisine>Indian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Paneer</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Spinach</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garlic</name>
+                <quantity>4</quantity>
+                <unit>cloves</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Blanch spinach and blend into a puree.</step>
+            <step>Saute onion, garlic, and tomatoes.</step>
+            <step>Add spinach puree and spices.</step>
+            <step>Add paneer cubes and simmer.</step>
+        </steps>
+
+        <nutrition>
+            <calories>420</calories>
+            <protein>24</protein>
+            <carbohydrates>18</carbohydrates>
+            <fat>29</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Paneer</tag>
+            <tag>Spinach</tag>
+            <tag>Vegetarian</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R005">
+        <name>Chana Masala</name>
+        <description>Chickpeas cooked in a spicy tomato and onion gravy.</description>
+        <cuisine>Indian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chickpeas</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>3</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Ginger</name>
+                <quantity>10</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Saute onions until golden.</step>
+            <step>Add ginger, tomatoes, and spices.</step>
+            <step>Add cooked chickpeas.</step>
+            <step>Simmer until the gravy thickens.</step>
+        </steps>
+
+        <nutrition>
+            <calories>360</calories>
+            <protein>18</protein>
+            <carbohydrates>54</carbohydrates>
+            <fat>8</fat>
+        </nutrition>
+
+        <cookingTime>35</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>None</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Chickpeas</tag>
+            <tag>Vegan</tag>
+            <tag>Indian</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R006">
+        <name>Chicken Tikka</name>
+        <description>Boneless chicken marinated with yogurt and spices and grilled until smoky.</description>
+        <cuisine>Indian</cuisine>
+        <category>Starter</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>400</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Yogurt</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Lemon Juice</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garam Masala</name>
+                <quantity>1</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Combine yogurt, spices, and lemon juice.</step>
+            <step>Marinate chicken for at least one hour.</step>
+            <step>Thread chicken onto skewers.</step>
+            <step>Grill until cooked and lightly charred.</step>
+        </steps>
+
+        <nutrition>
+            <calories>350</calories>
+            <protein>45</protein>
+            <carbohydrates>8</carbohydrates>
+            <fat>14</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Chicken</tag>
+            <tag>Grilled</tag>
+            <tag>Protein</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R007">
+        <name>Masala Dosa</name>
+        <description>Crispy fermented rice and lentil crepe filled with spiced potato masala.</description>
+        <cuisine>Indian</cuisine>
+        <category>Breakfast</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Dosa Batter</name>
+                <quantity>300</quantity>
+                <unit>ml</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Potato</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Mustard Seeds</name>
+                <quantity>1</quantity>
+                <unit>tsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Prepare potato masala with onion and spices.</step>
+            <step>Spread dosa batter thinly on a hot pan.</step>
+            <step>Cook until crisp.</step>
+            <step>Add potato filling and fold.</step>
+        </steps>
+
+        <nutrition>
+            <calories>410</calories>
+            <protein>10</protein>
+            <carbohydrates>72</carbohydrates>
+            <fat>10</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>None</allergen>
+        </allergens>
+
+        <tags>
+            <tag>South Indian</tag>
+            <tag>Breakfast</tag>
+            <tag>Potato</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R008">
+        <name>Egg Fried Rice</name>
+        <description>Stir-fried rice prepared with eggs, vegetables, soy sauce, and spring onions.</description>
+        <cuisine>Chinese</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Cooked Rice</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Egg</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Carrot</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Spring Onion</name>
+                <quantity>40</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Soy Sauce</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Scramble eggs in a hot wok.</step>
+            <step>Add vegetables and stir fry.</step>
+            <step>Add cooked rice.</step>
+            <step>Add soy sauce and spring onions.</step>
+            <step>Toss everything over high heat.</step>
+        </steps>
+
+        <nutrition>
+            <calories>480</calories>
+            <protein>18</protein>
+            <carbohydrates>70</carbohydrates>
+            <fat>14</fat>
+        </nutrition>
+
+        <cookingTime>20</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Egg</allergen>
+            <allergen>Soy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Rice</tag>
+            <tag>Egg</tag>
+            <tag>Chinese</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R009">
+        <name>Vegetable Noodles</name>
+        <description>Chinese-style noodles stir-fried with colorful vegetables and sauces.</description>
+        <cuisine>Chinese</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Noodles</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Carrot</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Cabbage</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Soy Sauce</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Boil noodles until just cooked.</step>
+            <step>Stir fry vegetables over high heat.</step>
+            <step>Add noodles and soy sauce.</step>
+            <step>Toss until evenly combined.</step>
+        </steps>
+
+        <nutrition>
+            <calories>430</calories>
+            <protein>13</protein>
+            <carbohydrates>69</carbohydrates>
+            <fat>11</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+            <allergen>Soy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Noodles</tag>
+            <tag>Vegetables</tag>
+            <tag>Quick</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R010">
+        <name>Chilli Chicken</name>
+        <description>Indo-Chinese chicken tossed with peppers, onions, chilli sauce, and soy sauce.</description>
+        <cuisine>Chinese</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>400</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Soy Sauce</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Chilli Sauce</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook chicken pieces until golden.</step>
+            <step>Stir fry onions and capsicum.</step>
+            <step>Add sauces.</step>
+            <step>Add cooked chicken and toss.</step>
+        </steps>
+
+        <nutrition>
+            <calories>510</calories>
+            <protein>40</protein>
+            <carbohydrates>28</carbohydrates>
+            <fat>24</fat>
+        </nutrition>
+
+        <cookingTime>35</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Soy</allergen>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Chicken</tag>
+            <tag>Spicy</tag>
+            <tag>Indo-Chinese</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R011">
+        <name>Margherita Pizza</name>
+        <description>Classic Italian pizza topped with tomato sauce, mozzarella, and basil.</description>
+        <cuisine>Italian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Pizza Dough</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato Sauce</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Mozzarella Cheese</name>
+                <quantity>150</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Basil</name>
+                <quantity>10</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Roll out the pizza dough.</step>
+            <step>Spread tomato sauce over the base.</step>
+            <step>Add mozzarella and basil.</step>
+            <step>Bake until the crust is golden.</step>
+        </steps>
+
+        <nutrition>
+            <calories>620</calories>
+            <protein>25</protein>
+            <carbohydrates>78</carbohydrates>
+            <fat>24</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Pizza</tag>
+            <tag>Cheese</tag>
+            <tag>Italian</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R012">
+        <name>Spaghetti Aglio e Olio</name>
+        <description>Simple Italian pasta tossed with garlic, olive oil, chilli flakes, and parsley.</description>
+        <cuisine>Italian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Spaghetti</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garlic</name>
+                <quantity>6</quantity>
+                <unit>cloves</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Olive Oil</name>
+                <quantity>40</quantity>
+                <unit>ml</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Chilli Flakes</name>
+                <quantity>1</quantity>
+                <unit>tsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Boil spaghetti until al dente.</step>
+            <step>Saute garlic in olive oil.</step>
+            <step>Add chilli flakes.</step>
+            <step>Toss cooked pasta in the garlic oil.</step>
+        </steps>
+
+        <nutrition>
+            <calories>540</calories>
+            <protein>15</protein>
+            <carbohydrates>72</carbohydrates>
+            <fat>20</fat>
+        </nutrition>
+
+        <cookingTime>20</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Pasta</tag>
+            <tag>Garlic</tag>
+            <tag>Quick</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R013">
+        <name>Penne Arrabbiata</name>
+        <description>Penne pasta served in a spicy tomato, garlic, and chilli sauce.</description>
+        <cuisine>Italian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Penne Pasta</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>4</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garlic</name>
+                <quantity>5</quantity>
+                <unit>cloves</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Chilli Flakes</name>
+                <quantity>2</quantity>
+                <unit>tsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook pasta until al dente.</step>
+            <step>Saute garlic and chilli flakes.</step>
+            <step>Add tomatoes and cook into a sauce.</step>
+            <step>Toss pasta with the sauce.</step>
+        </steps>
+
+        <nutrition>
+            <calories>490</calories>
+            <protein>14</protein>
+            <carbohydrates>80</carbohydrates>
+            <fat>12</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Pasta</tag>
+            <tag>Spicy</tag>
+            <tag>Tomato</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R014">
+        <name>Chicken Alfredo Pasta</name>
+        <description>Creamy pasta prepared with chicken, parmesan cheese, butter, and cream.</description>
+        <cuisine>Italian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Fettuccine</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Fresh Cream</name>
+                <quantity>150</quantity>
+                <unit>ml</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Parmesan Cheese</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Butter</name>
+                <quantity>30</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook pasta until al dente.</step>
+            <step>Cook sliced chicken in a pan.</step>
+            <step>Melt butter and add cream.</step>
+            <step>Add parmesan and stir until smooth.</step>
+            <step>Add pasta and chicken to the sauce.</step>
+        </steps>
+
+        <nutrition>
+            <calories>760</calories>
+            <protein>42</protein>
+            <carbohydrates>70</carbohydrates>
+            <fat>34</fat>
+        </nutrition>
+
+        <cookingTime>35</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Chicken</tag>
+            <tag>Pasta</tag>
+            <tag>Creamy</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R015">
+        <name>Vegetable Lasagna</name>
+        <description>Layered pasta baked with vegetables, tomato sauce, white sauce, and cheese.</description>
+        <cuisine>Italian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Lasagna Sheets</name>
+                <quantity>200</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Zucchini</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato Sauce</name>
+                <quantity>200</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Mozzarella Cheese</name>
+                <quantity>150</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook vegetables until slightly tender.</step>
+            <step>Layer lasagna sheets, vegetables, and tomato sauce.</step>
+            <step>Add cheese between layers.</step>
+            <step>Bake until golden and bubbling.</step>
+        </steps>
+
+        <nutrition>
+            <calories>590</calories>
+            <protein>24</protein>
+            <carbohydrates>68</carbohydrates>
+            <fat>25</fat>
+        </nutrition>
+
+        <cookingTime>55</cookingTime>
+        <difficulty>Hard</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Lasagna</tag>
+            <tag>Vegetables</tag>
+            <tag>Baked</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R016">
+        <name>Chicken Tacos</name>
+        <description>Mexican tortillas filled with seasoned chicken, vegetables, and salsa.</description>
+        <cuisine>Mexican</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tortilla</name>
+                <quantity>6</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Lettuce</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Salsa</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Season and cook chicken.</step>
+            <step>Warm the tortillas.</step>
+            <step>Fill tortillas with chicken and vegetables.</step>
+            <step>Add salsa and serve.</step>
+        </steps>
+
+        <nutrition>
+            <calories>520</calories>
+            <protein>35</protein>
+            <carbohydrates>55</carbohydrates>
+            <fat>18</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Tacos</tag>
+            <tag>Chicken</tag>
+            <tag>Mexican</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R017">
+        <name>Vegetable Burrito</name>
+        <description>Large tortilla filled with rice, beans, vegetables, salsa, and guacamole.</description>
+        <cuisine>Mexican</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Tortilla</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Cooked Rice</name>
+                <quantity>150</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Black Beans</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Guacamole</name>
+                <quantity>60</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook vegetables with seasoning.</step>
+            <step>Warm the tortilla.</step>
+            <step>Add rice, beans, vegetables, and guacamole.</step>
+            <step>Roll tightly into a burrito.</step>
+        </steps>
+
+        <nutrition>
+            <calories>560</calories>
+            <protein>18</protein>
+            <carbohydrates>88</carbohydrates>
+            <fat>15</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Burrito</tag>
+            <tag>Beans</tag>
+            <tag>Vegan</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R018">
+        <name>Cheese Quesadilla</name>
+        <description>Mexican tortilla grilled with melted cheese and vegetables.</description>
+        <cuisine>Mexican</cuisine>
+        <category>Snack</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Tortilla</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Cheddar Cheese</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>60</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>50</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Place cheese and vegetables over one tortilla.</step>
+            <step>Cover with another tortilla.</step>
+            <step>Cook on both sides until golden.</step>
+            <step>Slice and serve.</step>
+        </steps>
+
+        <nutrition>
+            <calories>510</calories>
+            <protein>21</protein>
+            <carbohydrates>42</carbohydrates>
+            <fat>29</fat>
+        </nutrition>
+
+        <cookingTime>15</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Cheese</tag>
+            <tag>Quick</tag>
+            <tag>Mexican</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R019">
+        <name>Mexican Bean Salad</name>
+        <description>Fresh salad made with beans, corn, tomato, onion, avocado, and lime.</description>
+        <cuisine>Mexican</cuisine>
+        <category>Salad</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Black Beans</name>
+                <quantity>150</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Corn</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Avocado</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Lime Juice</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Combine beans, corn, and chopped vegetables.</step>
+            <step>Add avocado.</step>
+            <step>Drizzle with lime juice.</step>
+            <step>Toss and serve chilled.</step>
+        </steps>
+
+        <nutrition>
+            <calories>320</calories>
+            <protein>13</protein>
+            <carbohydrates>44</carbohydrates>
+            <fat>12</fat>
+        </nutrition>
+
+        <cookingTime>15</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>None</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Salad</tag>
+            <tag>Beans</tag>
+            <tag>Healthy</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R020">
+        <name>Grilled Chicken Salad</name>
+        <description>Fresh mixed salad topped with seasoned grilled chicken and lemon dressing.</description>
+        <cuisine>Continental</cuisine>
+        <category>Salad</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Lettuce</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Cucumber</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Lemon Juice</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Season and grill chicken.</step>
+            <step>Slice fresh vegetables.</step>
+            <step>Arrange vegetables in a bowl.</step>
+            <step>Add sliced grilled chicken.</step>
+            <step>Drizzle with lemon dressing.</step>
+        </steps>
+
+        <nutrition>
+            <calories>340</calories>
+            <protein>39</protein>
+            <carbohydrates>14</carbohydrates>
+            <fat>14</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>None</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Chicken</tag>
+            <tag>Healthy</tag>
+            <tag>Salad</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R021">
+        <name>Cream of Mushroom Soup</name>
+        <description>Rich continental soup prepared with mushrooms, cream, garlic, and herbs.</description>
+        <cuisine>Continental</cuisine>
+        <category>Soup</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Mushroom</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Fresh Cream</name>
+                <quantity>100</quantity>
+                <unit>ml</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garlic</name>
+                <quantity>4</quantity>
+                <unit>cloves</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Butter</name>
+                <quantity>25</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Saute mushrooms and garlic in butter.</step>
+            <step>Add water or vegetable stock.</step>
+            <step>Simmer until mushrooms are tender.</step>
+            <step>Blend partially and add cream.</step>
+        </steps>
+
+        <nutrition>
+            <calories>310</calories>
+            <protein>9</protein>
+            <carbohydrates>17</carbohydrates>
+            <fat>23</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Soup</tag>
+            <tag>Mushroom</tag>
+            <tag>Creamy</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R022">
+        <name>French Toast</name>
+        <description>Bread slices dipped in seasoned egg and milk mixture and pan toasted.</description>
+        <cuisine>Continental</cuisine>
+        <category>Breakfast</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Bread</name>
+                <quantity>4</quantity>
+                <unit>slices</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Egg</name>
+                <quantity>2</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Milk</name>
+                <quantity>100</quantity>
+                <unit>ml</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Sugar</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Whisk eggs, milk, and sugar.</step>
+            <step>Dip bread slices into the mixture.</step>
+            <step>Cook on a pan until golden on both sides.</step>
+        </steps>
+
+        <nutrition>
+            <calories>390</calories>
+            <protein>16</protein>
+            <carbohydrates>48</carbohydrates>
+            <fat>15</fat>
+        </nutrition>
+
+        <cookingTime>15</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Egg</allergen>
+            <allergen>Dairy</allergen>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Breakfast</tag>
+            <tag>Bread</tag>
+            <tag>Quick</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R023">
+        <name>Vegan Buddha Bowl</name>
+        <description>Healthy bowl with quinoa, chickpeas, vegetables, avocado, and tahini dressing.</description>
+        <cuisine>Continental</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Quinoa</name>
+                <quantity>150</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Chickpeas</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Avocado</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Carrot</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tahini</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook quinoa until tender.</step>
+            <step>Prepare vegetables.</step>
+            <step>Arrange quinoa, chickpeas, avocado, and vegetables in a bowl.</step>
+            <step>Add tahini dressing.</step>
+        </steps>
+
+        <nutrition>
+            <calories>470</calories>
+            <protein>17</protein>
+            <carbohydrates>58</carbohydrates>
+            <fat>20</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Sesame</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Healthy</tag>
+            <tag>Quinoa</tag>
+            <tag>Vegan</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R024">
+        <name>Garlic Bread</name>
+        <description>Toasted bread spread with garlic butter and herbs.</description>
+        <cuisine>Continental</cuisine>
+        <category>Snack</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Bread</name>
+                <quantity>6</quantity>
+                <unit>slices</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Butter</name>
+                <quantity>50</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garlic</name>
+                <quantity>5</quantity>
+                <unit>cloves</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Parsley</name>
+                <quantity>10</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Mix butter, garlic, and parsley.</step>
+            <step>Spread over bread slices.</step>
+            <step>Bake until crisp and golden.</step>
+        </steps>
+
+        <nutrition>
+            <calories>330</calories>
+            <protein>8</protein>
+            <carbohydrates>39</carbohydrates>
+            <fat>16</fat>
+        </nutrition>
+
+        <cookingTime>15</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Bread</tag>
+            <tag>Garlic</tag>
+            <tag>Snack</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R025">
+        <name>Chinese Vegetable Soup</name>
+        <description>Light vegetable soup flavored with garlic, ginger, soy sauce, and pepper.</description>
+        <cuisine>Chinese</cuisine>
+        <category>Soup</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Carrot</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Cabbage</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Beans</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Ginger</name>
+                <quantity>10</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Soy Sauce</name>
+                <quantity>1</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Saute ginger and vegetables briefly.</step>
+            <step>Add water or vegetable stock.</step>
+            <step>Add soy sauce and seasoning.</step>
+            <step>Simmer until vegetables are tender.</step>
+        </steps>
+
+        <nutrition>
+            <calories>180</calories>
+            <protein>6</protein>
+            <carbohydrates>28</carbohydrates>
+            <fat>4</fat>
+        </nutrition>
+
+        <cookingTime>20</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Soy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Soup</tag>
+            <tag>Vegetables</tag>
+            <tag>Light</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R026">
+        <name>Kung Pao Chicken</name>
+        <description>Spicy Chinese chicken stir fry prepared with peanuts, vegetables, and savory sauce.</description>
+        <cuisine>Chinese</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Chicken</name>
+                <quantity>350</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Peanut</name>
+                <quantity>50</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Soy Sauce</name>
+                <quantity>2</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Dried Chilli</name>
+                <quantity>5</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Stir fry chicken until cooked.</step>
+            <step>Add dried chilli and vegetables.</step>
+            <step>Add soy sauce and seasoning.</step>
+            <step>Add peanuts and toss together.</step>
+        </steps>
+
+        <nutrition>
+            <calories>580</calories>
+            <protein>42</protein>
+            <carbohydrates>24</carbohydrates>
+            <fat>34</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Non-Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Peanut</allergen>
+            <allergen>Soy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Chicken</tag>
+            <tag>Peanut</tag>
+            <tag>Spicy</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R027">
+        <name>Paneer Tikka</name>
+        <description>Paneer cubes marinated with yogurt and Indian spices and grilled with vegetables.</description>
+        <cuisine>Indian</cuisine>
+        <category>Starter</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Paneer</name>
+                <quantity>300</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Yogurt</name>
+                <quantity>120</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Onion</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Prepare yogurt and spice marinade.</step>
+            <step>Marinate paneer and vegetables.</step>
+            <step>Arrange on skewers.</step>
+            <step>Grill until lightly charred.</step>
+        </steps>
+
+        <nutrition>
+            <calories>430</calories>
+            <protein>25</protein>
+            <carbohydrates>16</carbohydrates>
+            <fat>29</fat>
+        </nutrition>
+
+        <cookingTime>30</cookingTime>
+        <difficulty>Medium</difficulty>
+        <dietaryType>Vegetarian</dietaryType>
+
+        <allergens>
+            <allergen>Dairy</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Paneer</tag>
+            <tag>Grilled</tag>
+            <tag>Indian</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R028">
+        <name>Tomato Basil Pasta</name>
+        <description>Pasta tossed with fresh tomato sauce, basil, garlic, and olive oil.</description>
+        <cuisine>Italian</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Pasta</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>4</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Basil</name>
+                <quantity>15</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Garlic</name>
+                <quantity>4</quantity>
+                <unit>cloves</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Olive Oil</name>
+                <quantity>30</quantity>
+                <unit>ml</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Cook pasta until al dente.</step>
+            <step>Saute garlic in olive oil.</step>
+            <step>Add tomatoes and cook into a sauce.</step>
+            <step>Add basil.</step>
+            <step>Toss pasta with the sauce.</step>
+        </steps>
+
+        <nutrition>
+            <calories>460</calories>
+            <protein>13</protein>
+            <carbohydrates>74</carbohydrates>
+            <fat>13</fat>
+        </nutrition>
+
+        <cookingTime>25</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Pasta</tag>
+            <tag>Tomato</tag>
+            <tag>Basil</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R029">
+        <name>Avocado Toast</name>
+        <description>Toasted bread topped with seasoned mashed avocado and tomato.</description>
+        <cuisine>Continental</cuisine>
+        <category>Breakfast</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Bread</name>
+                <quantity>2</quantity>
+                <unit>slices</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Avocado</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>1</quantity>
+                <unit>piece</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Lemon Juice</name>
+                <quantity>1</quantity>
+                <unit>tbsp</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Toast the bread slices.</step>
+            <step>Mash avocado with lemon juice and seasoning.</step>
+            <step>Spread avocado over toast.</step>
+            <step>Add chopped tomato.</step>
+        </steps>
+
+        <nutrition>
+            <calories>290</calories>
+            <protein>8</protein>
+            <carbohydrates>36</carbohydrates>
+            <fat>14</fat>
+        </nutrition>
+
+        <cookingTime>10</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>Gluten</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Breakfast</tag>
+            <tag>Avocado</tag>
+            <tag>Quick</tag>
+        </tags>
+    </recipe>
+
+
+    <recipe id="R030">
+        <name>Mexican Rice</name>
+        <description>Flavorful rice cooked with tomatoes, vegetables, corn, beans, and Mexican spices.</description>
+        <cuisine>Mexican</cuisine>
+        <category>Main Course</category>
+
+        <ingredients>
+            <ingredient>
+                <name>Rice</name>
+                <quantity>250</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Tomato</name>
+                <quantity>3</quantity>
+                <unit>pieces</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Corn</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Black Beans</name>
+                <quantity>100</quantity>
+                <unit>g</unit>
+            </ingredient>
+
+            <ingredient>
+                <name>Capsicum</name>
+                <quantity>80</quantity>
+                <unit>g</unit>
+            </ingredient>
+        </ingredients>
+
+        <steps>
+            <step>Saute vegetables in a pan.</step>
+            <step>Add tomato and seasoning.</step>
+            <step>Add rice and water.</step>
+            <step>Add beans and corn.</step>
+            <step>Cover and cook until rice is tender.</step>
+        </steps>
+
+        <nutrition>
+            <calories>440</calories>
+            <protein>14</protein>
+            <carbohydrates>79</carbohydrates>
+            <fat>7</fat>
+        </nutrition>
+
+        <cookingTime>35</cookingTime>
+        <difficulty>Easy</difficulty>
+        <dietaryType>Vegan</dietaryType>
+
+        <allergens>
+            <allergen>None</allergen>
+        </allergens>
+
+        <tags>
+            <tag>Rice</tag>
+            <tag>Beans</tag>
+            <tag>Mexican</tag>
+        </tags>
+    </recipe>
+
+</recipes>

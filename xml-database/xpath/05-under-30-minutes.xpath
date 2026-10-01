@@ -1,0 +1,1 @@
+/recipes/recipe[cookingTime < 30]/name/text()

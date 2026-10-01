@@ -1,0 +1,1 @@
+/recipes/recipe[nutrition/calories < 500]/name/text()
